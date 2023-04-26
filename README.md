@@ -26,5 +26,5 @@ Using $\beta_i = 1$ as true parameter. Set noise as $N(0,0.1)$, smoothness $s=5$
 
 #### Results
 
-![]('para.png')
+![]('https://github.com/yuanyuanbenben/Repeat_PINN/blob/main/para.png')
 
