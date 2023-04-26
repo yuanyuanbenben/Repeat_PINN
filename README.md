@@ -26,26 +26,5 @@ Using $\beta_i = 1$ as true parameter. Set noise as $N(0,0.1)$, smoothness $s=5$
 
 #### Results
 
-\begin{table}[H]
-\label{table:1}
-    \centering
-    \begin{tabular}{c|c|c|c|c|c}
-         Parameter&$\beta_0$&$\beta_1$&$\beta_2$&$\beta_3$&$\beta_4$  \\
-         \hline
-         True value & 1.000&1.000&1.000&1.000&1.000\\
-         \hline
-         PINN & 0.983&  0.980& 1.147&  0.991&  0.881\\
-         abs error$\times10^3$& 16.911& 19.983& 146.508&  9.215& 118.616\\
-         \hline
-         One step modified &0.994&  0.998& 1.060&  1.015&  1.023\\
-         abs error$\times10^3$ &5.762& 2.011& 59.631& 14.704& 23.081\\
-         related error&0.341& 0.101& 0.407&1.596&  0.195\\
-         \hline
-         Two step modified & 1.028 &1.000& 0.851& 1.014 &1.065\\
-         abs error$\times 10^3$& 27.828&  0.233& 148.980& 13.616& 65.020\\
-         related error ratio&1.645&   0.012& 1.017&  1.478&  0.548\\
-         \hline
-    \end{tabular}
-    \caption{Results}
-\end{table}
+![]('para.png')
 
