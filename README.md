@@ -25,8 +25,9 @@ $$u(x,y) = \frac{1}{\sqrt{5}}\sum_{k=1}^\infty (-1)^{k+1} k^{-(s+0.5)} (\cos (2k
 Using $\beta_i = 1$ as true parameter. Set noise as $N(0,0.1)$, smoothness $s=5$ and $576$ samples. 
 
 #### Results
-   |Parameter|$\beta_0$|$\beta_1$|$\beta_2$|$\beta_3$|$\beta_4|
-   |:------|:------|:------|:------|:------|
+
+         |Parameter|$\beta_0$|$\beta_1$|$\beta_2$|$\beta_3$|$\beta_4|
+         |:--------|:--------|:--------|:--------|:--------|:--------|
          |True value | 1.000|1.000|1.000|1.000|1.000|
          |PINN | 0.983|  0.980| 1.147|  0.991|  0.881|
          |abs error|\times10^3$| 16.911| 19.983| 146.508|  9.215| 118.616|
